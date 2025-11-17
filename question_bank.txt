@@ -1,0 +1,203 @@
+### Question bank ###
+
+questions = [
+    {"question": "What is the correct extension for Python files?",
+     "options": ["a) .python", "b) .py", "c) .pyt", "d) .pt"],
+     "answer": "b"},
+    
+    {"question": "Which keyword is used to define a function in Python?",
+     "options": ["a) function", "b) def", "c) fun", "d) define"],
+     "answer": "b"},
+    
+    {"question": "How do you insert comments in Python code?",
+     "options": ["a) // comment", "b) /* comment */", "c) # comment", "d) <!-- comment -->"],
+     "answer": "c"},
+    
+    {"question": "Which of the following is a mutable data type?",
+     "options": ["a) tuple", "b) list", "c) string", "d) int"],
+     "answer": "b"},
+    
+    {"question": "What will be the output of: print(type(5))?",
+     "options": ["a) <class 'int'>", "b) int", "c) type 'int'", "d) integer"],
+     "answer": "a"},
+    
+    {"question": "Which operator is used for exponentiation?",
+     "options": ["a) ^", "b) **", "c) %", "d) //"],
+     "answer": "b"},
+    
+    {"question": "What is the result of 3 * 'hi'?",
+     "options": ["a) 'hi3'", "b) 'hihihi'", "c) Error", "d) ['hi','hi','hi']"],
+     "answer": "b"},
+    
+    {"question": "Which method adds an item to a list?",
+     "options": ["a) add()", "b) push()", "c) append()", "d) insert()"],
+     "answer": "c"},
+    
+    {"question": "What is the output of len('Python')?",
+     "options": ["a) 5", "b) 6", "c) 7", "d) Error"],
+     "answer": "b"},
+    
+    {"question": "Which one is NOT a valid variable name?",
+     "options": ["a) my_var", "b) _value", "c) 2num", "d) name2"],
+     "answer": "c"},
+    
+    {"question": "What keyword is used to start a conditional statement?",
+     "options": ["a) for", "b) if", "c) while", "d) def"],
+     "answer": "b"},
+    
+    {"question": "Which of these evaluates to True?",
+     "options": ["a) 5 == '5'", "b) 5 > 5", "c) 5 != 3", "d) 'a' == 'b'"],
+     "answer": "c"},
+    
+    {"question": "Which loop executes at least once?",
+     "options": ["a) for", "b) while", "c) None", "d) both a and b"],
+     "answer": "c"},
+    
+    {"question": "What will break keyword do?",
+     "options": ["a) stop the entire program", "b) skip to next iteration", "c) exit the loop", "d) repeat loop"],
+     "answer": "c"},
+    
+    {"question": "What will continue keyword do?",
+     "options": ["a) end loop", "b) skip current iteration", "c) start a new loop", "d) do nothing"],
+     "answer": "b"},
+    
+    {"question": "Which function is used to get input from the user?",
+     "options": ["a) get()", "b) scan()", "c) input()", "d) read()"],
+     "answer": "c"},
+    
+    {"question": "What is the default return value of a Python function that does not have a return statement?",
+     "options": ["a) 0", "b) null", "c) None", "d) False"],
+     "answer": "c"},
+    
+    {"question": "How do you call a function named myFunc?",
+     "options": ["a) call myFunc()", "b) myFunc", "c) myFunc()", "d) function myFunc()"],
+     "answer": "c"},
+    
+    {"question": "What is the scope of a variable declared inside a function?",
+     "options": ["a) global", "b) local", "c) universal", "d) permanent"],
+     "answer": "b"},
+    
+    {"question": "What will be printed? print(2 == 2.0)",
+     "options": ["a) True", "b) False", "c) Error", "d) None"],
+     "answer": "a"},
+    
+    {"question": "Which keyword is used to define a class?",
+     "options": ["a) object", "b) define", "c) class", "d) def"],
+     "answer": "c"},
+    
+    {"question": "What is self in Python classes?",
+     "options": ["a) keyword", "b) refers to the instance", "c) refers to class name", "d) global variable"],
+     "answer": "b"},
+    
+    {"question": "How do you define a constructor in Python?",
+     "options": ["a) init()", "b) __init__()", "c) constructor()", "d) setup()"],
+     "answer": "b"},
+    
+    {"question": "What will happen if you call a function with fewer arguments than defined?",
+     "options": ["a) MissingArgumentError", "b) TypeError", "c) SyntaxError", "d) None"],
+     "answer": "b"},
+    
+    {"question": "Which of the following is immutable?",
+     "options": ["a) list", "b) dict", "c) tuple", "d) set"],
+     "answer": "c"},
+    
+    {"question": "What does dict.keys() return?",
+     "options": ["a) list of keys", "b) values", "c) pairs", "d) string"],
+     "answer": "a"},
+    
+    {"question": "Which function returns the number of items in a list?",
+     "options": ["a) length()", "b) count()", "c) len()", "d) num()"],
+     "answer": "c"},
+    
+    {"question": "What is the output of bool(0)?",
+     "options": ["a) True", "b) False", "c) 0", "d) None"],
+     "answer": "b"},
+    
+    {"question": "Which symbol is used to start a code block in Python?",
+     "options": ["a) {", "b) (", "c) :", "d) ["],
+     "answer": "c"},
+    
+    {"question": "What will print(5//2) output?",
+     "options": ["a) 2.5", "b) 3", "c) 2", "d) Error"],
+     "answer": "c"},
+    
+    {"question": "Which statement is used to handle exceptions?",
+     "options": ["a) catch", "b) handle", "c) try-except", "d) check"],
+     "answer": "c"},
+    
+    {"question": "How to remove a key from a dictionary?",
+     "options": ["a) del dict[key]", "b) remove(dict[key])", "c) dict.delete(key)", "d) erase key"],
+     "answer": "a"},
+    
+    {"question": "Which of these creates a set?",
+     "options": ["a) {}", "b) []", "c) set()", "d) ()"],
+     "answer": "c"},
+    
+    {"question": "What is the output of: print('5' + '5')?",
+     "options": ["a) 10", "b) 55", "c) Error", "d) None"],
+     "answer": "b"},
+    
+    {"question": "What does 'pass' do in Python?",
+     "options": ["a) exits function", "b) skips execution", "c) placeholder for future code", "d) continues loop"],
+     "answer": "c"},
+    
+    {"question": "Which of the following is NOT a Python keyword?",
+     "options": ["a) finally", "b) elif", "c) repeat", "d) lambda"],
+     "answer": "c"},
+    
+    {"question": "What is the output of: bool('False')?",
+     "options": ["a) True", "b) False", "c) None", "d) Error"],
+     "answer": "a"},
+    
+    {"question": "Which function converts a string to lowercase?",
+     "options": ["a) lower()", "b) tolower()", "c) strlower()", "d) down()"],
+     "answer": "a"},
+    
+    {"question": "What is the data type of range(5)?",
+     "options": ["a) list", "b) range", "c) tuple", "d) generator"],
+     "answer": "b"},
+    
+    {"question": "Which of the following statements will create an empty list?",
+     "options": ["a) list()", "b) []", "c) Both a and b", "d) None"],
+     "answer": "c"},
+    
+    {"question": "What is the output of: print(type({}))?",
+     "options": ["a) <class 'set'>", "b) <class 'dict'>", "c) <class 'tuple'>", "d) <class 'list'>"],
+     "answer": "b"},
+    
+    {"question": "How do you inherit a class in Python?",
+     "options": ["a) class Child extends Parent:", "b) class Child(Parent):", "c) class Child -> Parent:", "d) inherit Child from Parent"],
+     "answer": "b"},
+    
+    {"question": "What does isinstance(x, y) do?",
+     "options": ["a) checks data type", "b) checks if x is an instance of y", "c) converts x to type y", "d) copies object"],
+     "answer": "b"},
+    
+    {"question": "What is the correct way to define a private variable in a class?",
+     "options": ["a) var", "b) _var", "c) __var", "d) private var"],
+     "answer": "c"},
+    
+    {"question": "Which statement creates an object of a class?",
+     "options": ["a) obj = MyClass", "b) obj = MyClass()", "c) obj = class(MyClass)", "d) obj.create()"],
+     "answer": "b"},
+    
+    {"question": "What does return do in a function?",
+     "options": ["a) exits function", "b) prints output", "c) defines variable", "d) none"],
+     "answer": "a"},
+    
+    {"question": "Which of the following is used for documentation in Python?",
+     "options": ["a) #comment", "b) /** */", "c) docstring", "d) --"],
+     "answer": "c"},
+    
+    {"question": "Which keyword is used to access inherited methods of a parent class?",
+     "options": ["a) super", "b) parent", "c) inherit", "d) this"],
+     "answer": "a"},
+    
+    {"question": "How to check the data type of a variable?",
+     "options": ["a) typeof()", "b) type()", "c) checktype()", "d) gettype()"],
+     "answer": "b"},
+    
+    {"question": "Which function is used to convert a list into a tuple?",
+     "options": ["a) tuple()", "b) list()", "c) convert()", "d) set()"],
+     "answer": "a"}
+]
